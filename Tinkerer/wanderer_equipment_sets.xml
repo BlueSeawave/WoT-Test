@@ -2,7 +2,6 @@
 <EquipmentRosters>
 	<EquipmentRoster id="Tuatha_an_companion_battle_set" culture="Culture.darshi">
 		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.khuzait_sword_4_t4" />
 			<Equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
 			<Equipment slot="Leg" id="Item.battania_leather_boots" />
 			<Equipment slot="Gloves" id="Item.northern_brass_bracers" />

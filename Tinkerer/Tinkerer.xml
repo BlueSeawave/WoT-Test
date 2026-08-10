@@ -2,7 +2,7 @@
 <NPCCharacters>
 <NPCCharacter 
 	id="Tuatha_an_companion" 
-    name="{=Tuatha_an_companion}Myriel Songseeker" 
+    name="{=Tuatha_an_companion} Myriel Songseeker" 
     is_female="false"
     culture="Culture.empire" 
     voice="curt" 
