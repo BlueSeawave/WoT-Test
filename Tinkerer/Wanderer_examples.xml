@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+<!--Example 1 -->
+	<!--This guy has a fixed name-->
+  <NPCCharacter id="wanderer_seanchan_0" name="{=WOTwand1}Ihaka Shumada" age="28" voice="earnest" culture="Culture.vlandia" default_group="Infantry" is_female="false" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+		<!--variable body properties-->
+      <face_key_template value="BodyProperty.fighter_aserai" />
+      <hair_tags>
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+		<!--Fixed skills example-->
+      <skill id="OneHanded" value="250" />
+      <skill id="TwoHanded" value="200" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="150" />
+      <skill id="Throwing" value="150" />
+      <skill id="Riding" value="200" />
+      <skill id="Athletics" value="250" />
+      <skill id="Crafting" value="25" />
+      <skill id="Scouting" value="140" />
+      <skill id="Tactics" value="250" />
+      <skill id="Charm" value="50" />
+      <skill id="Leadership" value="250" />
+      <skill id="Trade" value="25" />
+      <skill id="Steward" value="50" />
+      <skill id="Medicine" value="100" />
+    </skills>
+    <Traits>
+      <Trait id="Honor" value="2" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="2" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+    <Equipments>
+		<!--If you want to define equipment you need to use the EquipmentRoster tag-->
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Cape" id="Item.Elfrangerhoodandcloak2" />
+        <equipment slot="Body" id="Item.Elfassasinarmor3" />
+        <equipment slot="Leg" id="Item.Elfboots3" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Cape" id="Item.Elfrangerhoodandcloak1" />
+        <equipment slot="Body" id="Item.Elfassasinarmor3" />
+        <equipment slot="Leg" id="Item.Elfboots3b" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+	<!--Example 2-->
+	<!--This guy has a variable first name and uses a skill template instead of fixed skills for variety-->
+  <NPCCharacter id="wanderer_altara_0" name="{=WOTwand2}{FIRSTNAME} the Gleeman" voice="curt" age="32" is_female="false" default_group="Ranged" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits>
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+		<!--This set up uses an equipment set which is maintained in a seperate xml.  Great when you want a lot of variety with the gear sets.-->
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wanderer_cairhien_0" name="{=WOTwand3}{FIRSTNAME} the Gleeman" voice="curt" age="31" is_female="false" default_group="Ranged" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits>
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+
+
+<!--Equipment Set sample xml showing you the variety-->
+<!--Note you can use explicit sets for civillian and non civilian-->
+<EquipmentRoster id="npc_companion_equipment_template_aserai" culture="Culture.aserai">
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.aserai_civil_hscarf_b" />
+		<Equipment slot="Body" id="Item.aserai_civil_d" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+		<Equipment slot="Horse" id="Item.sumpter_horse" />
+		<Equipment slot="HorseHarness" id="Item.bandit_saddle_desert" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.aserai_civil_hscarf_b" />
+		<Equipment slot="Body" id="Item.aserai_civil_d" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.aserai_civil_e_hscarf" />
+		<Equipment slot="Body" id="Item.aserai_civil_b" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+		<Equipment slot="Horse" id="Item.sumpter_horse" />
+		<Equipment slot="HorseHarness" id="Item.bandit_saddle_desert" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.aserai_civil_e_hscarf" />
+		<Equipment slot="Body" id="Item.aserai_civil_b" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+		<Equipment slot="Body" id="Item.aserai_civil_a" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+		<Equipment slot="Horse" id="Item.sumpter_horse" />
+		<Equipment slot="HorseHarness" id="Item.bandit_saddle_desert" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+		<Equipment slot="Body" id="Item.aserai_civil_a" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+		<Equipment slot="Body" id="Item.layered_robe" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+		<Equipment slot="Horse" id="Item.sumpter_horse" />
+		<Equipment slot="HorseHarness" id="Item.bandit_saddle_desert" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+		<Equipment slot="Body" id="Item.layered_robe" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.desert_cap" />
+		<Equipment slot="Body" id="Item.short_padded_robe" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+		<Equipment slot="Horse" id="Item.sumpter_horse" />
+		<Equipment slot="HorseHarness" id="Item.bandit_saddle_desert" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.desert_cap" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.short_padded_robe" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+	</EquipmentSet>
+	<EquipmentSet equipmentType="Civilian">
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+		<Equipment slot="Body" id="Item.aserai_civil_a" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+	</EquipmentSet>
+	<EquipmentSet equipmentType="Civilian">
+		<Equipment slot="Item0" id="Item.aserai_sword_1_t2" />
+		<Equipment slot="Head" id="Item.aserai_civil_e_hscarf" />
+		<Equipment slot="Body" id="Item.aserai_civil_b" />
+		<Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+		<Equipment slot="Horse" id="Item.sumpter_horse" />
+		<Equipment slot="HorseHarness" id="Item.bandit_saddle_desert" />
+	</EquipmentSet>
+</EquipmentRoster>
+
+<!--Sample Skillset xml which is great if you want to repeat the same skills for multiple wanderers-->
+	<SkillSet id="spc_wanderer_aserai_8_skills">
+		<!--unlucky merchant -->
+		<skill id="Athletics" value="90" />
+		<skill id="Riding" value="40" />
+		<skill id="OneHanded" value="20" />
+		<skill id="TwoHanded" value="10" />
+		<skill id="Polearm" value="10" />
+		<skill id="Bow" value="20" />
+		<skill id="Crossbow" value="120" />
+		<skill id="Throwing" value="10" />
+		<skill id="Steward" value="90" />
+		<skill id="Trade" value="110" />
+		<skill id="Leadership" value="30" />
+	</SkillSet>
+	
+	<!--Example of the strings xml format for their text-->
+	<!-- Seanchan -->
+	<string id="prebackstory.wanderer_seanchan_0" text="You look like an adventurous person, let us talk." />
+	<string id="backstory_a.wanderer_seanchan_0" text="For us Seanchan who are not born of the blood, we are expected to give our blood.  Our only worth is to try and achieve recognition in their eyes and be promoted to the blood.  But at what cost to those we love and respect? " />
+	<string id="backstory_b.wanderer_seanchan_0" text="Instead of pursuing the Seanchan dream, I have chosen to see all the world, from Seanchan to Shara and all that is between.  I have travelled the length and breadth of all Seanchan.  " />
+	<string id="backstory_c.wanderer_seanchan_0" text="So now here I am, sitting in this tavern, considering life, enjoying an ale, good food and listening to the locals tell their tales while contemplating my next adventure!" />
+	<string id="response_1.wanderer_seanchan_0" text="If it's adventure you want, there is plenty on offer in times such as these." />
+	<string id="response_2.wanderer_seanchan_0" text="Is it really adventure you want, or is ambition your true motive?" />
+	<string id="backstory_d.wanderer_seanchan_0" text="If you are offering a chance for me to see the world, you will find no better hand than my own." />
+	<string id="generic_backstory.wanderer_seanchan_0" text="I am determined to see all the world, from Seachan to Shara and all that is between!" />
+	<!--You need the complete set for the converstaion path with the first poart of the id as the story phase and the second part after the . is the wanderer name-->

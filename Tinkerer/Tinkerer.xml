@@ -1,13 +1,22 @@
-<NPCCharacter id="Tuatha_an_companion" 
-name="{=Tuatha_an_companion}Myriel Songseeker" 
-is_female="false"
-culture="Culture.empire" 
-voice="curt" age="24"
->
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+<NPCCharacter 
+	id="Tuatha_an_companion" 
+    name="{=Tuatha_an_companion}Myriel Songseeker" 
+    is_female="false"
+    culture="Culture.empire" 
+    voice="curt" 
+	age="24"
+	default_group="Ranged" 
+	is_template="true"
+	is_hero="false" 
+	occupation="Wanderer">
+	<!--Options for default group: Infantry, Ranged, Cavalry, HorseArcher-->
+	<!--I added in the other usual tags here underneath default_group-->
 <face>
-    <bodyProperties version="4" age="18" build="0.1 " weight="0.2" key="00165C000014000EE93966A9966848AA5746E9558867A392654767867CA775120197761309B278C50000000000000000000000000000000000000000593C30C3"> <!--Key grabbed of native lady Susada, if works may create custome face otherwise it should be fine -->
-    <bodyProperties version="4" age="24" build="0.3 " weight="0.4" key="00165C000014000EE93966A9966848AA5746E9558867A392654767867CA775120197761309B278C50000000000000000000000000000000000000000593C30C3"> 
-
+    <BodyProperties version="4" age="18" build="0.1 " weight="0.2" key="00165C000014000EE93966A9966848AA5746E9558867A392654767867CA775120197761309B278C50000000000000000000000000000000000000000593C30C3"/> 
+		<!--Key grabbed of native lady Susada, if works may create custome face otherwise it should be fine -->
+    <BodyPropertiesMax version="4" age="24" build="0.3 " weight="0.4" key="00165C000014000EE93966A9966848AA5746E9558867A392654767867CA775120197761309B278C50000000000000000000000000000000000000000593C30C3" /> 
 </face>
  <Traits>
     <Trait id="Mercy" value="2"/>
@@ -25,16 +34,11 @@ voice="curt" age="24"
     <skill id="Engineering" value="50"/>
     <skill id="Leadership" value="25"/>
     <skill id="Scouting" value="25"/>
-
 </skills>
+
 <Equipments>
-<Equipments>
-    <EquipmentSet id="Tuatha_an_companion_battle_set">
-        <equipment slot="Body" id="Item.padded_wrap_tunic"/>
-        <equipment slot="Leg" id="Item.strapped_shoes"/> <!-- No weapons for obvious reasons-->
-    </EquipmentSet>
-    <EquipmentSet id="Tuatha_an_companion_civilian_set" civilian="true">
-        <equipment slot="Body" id="Item.padded_wrap_tunic"/>
-        <equipment slot="Leg" id="Item.strapped_shoes"/>
-    </EquipmentSet>
+    <EquipmentSet id="Tuatha_an_companion_battle_set" />
+	<EquipmentSet id="Tuatha_an_companion_civilian_set" civilian="true" />
 </Equipments>
+</NPCCharacter>
+</NPCCharacters>	

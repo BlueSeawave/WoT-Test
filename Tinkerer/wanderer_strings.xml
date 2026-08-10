@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string id="prebackstory.Tuatha_an_companion" text="My name is Myriel Songseeker, do you know the song?" />
+	<string id="backstory_a.Tuatha_an_companion" text="Me and my family have wandered all over the westlands seeking the song. I dont need to tell you how much suffering we saw, I am sure you have seen your own fair share. My people wandered on " />
+	<string id="backstory_b.Tuatha_an_companion" text="I decided to remain, perhaps if I help those in need I will get closer to finding the song? " />
+	<string id="backstory_c.Tuatha_an_companion" text="So now here I am, sitting in this tavern, contemplating if a verse is found in this time. " />
+	<string id="response_1.Tuatha_an_companion" text="I do not know the song? What is one of the Tuatha'an doing here? " />
+	<string id="response_2.Tuatha_an_companion" text="I don't know anything about some silly song. Will you join me or not? " />
+	<string id="backstory_d.Tuatha_an_companion" text="If you are offering a chance for me to find my tune, i will offer you all that i have learned in return." />
+	<string id="generic_backstory.Tuatha_an_companion" text="I am determined to write my song to a melody that will age finer than any wine you find in establishments such as these." />
+</strings>
