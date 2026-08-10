@@ -6,6 +6,6 @@
 	<string id="backstory_c.Tuatha_an_companion" text="Now I am staying here waiting for someone who might put me on the right path. " />
 	<string id="response_1.Tuatha_an_companion" text="I do not know the song. If you can help me you might find the song on the road " />
 	<string id="response_2.Tuatha_an_companion" text="I don't know anything about some silly song. What are you talking about? " />
-	<string id="backstory_d.Tuatha_an_companion" text="If you are offering the chance for me to find the tune , i will offer you all that i have learned in return." />
+	<string id="backstory_d.Tuatha_an_companion" text="If you are offering the chance for me to find the tune , i will offer you all that i have learned in return. As long I don't have to hurt anyone" />
 	<string id="generic_backstory.Tuatha_an_companion" text="I am determinded to find the song, if going with you is what it take then that it how the pattern weaves." />
 </strings>
