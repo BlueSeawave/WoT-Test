@@ -5,7 +5,7 @@
 			<Equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
 			<Equipment slot="Leg" id="Item.battania_leather_boots" />
 			<Equipment slot="Gloves" id="Item.northern_brass_bracers" />
-            <Equipment slot="Item0" id="Item.aiel_spear1" /> <!--For thematic reasons more then ingame ones-->
+            <Equipment slot="Item0" id="Item.AielSpeargrade1" /> <!--For thematic reasons more then ingame ones-->
 		</EquipmentSet>
 		</EquipmentRoster>
 	<EquipmentRoster id="Ex_tuatha_an_companion_civilian_set" culture="Culture.darshi">

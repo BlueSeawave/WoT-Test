@@ -692,7 +692,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="DreadlordAiel1" default_group="Ranged" level="21" name="{=DreadlordAiel}Samma N'Sei Nomad (Fire Arrow) (Long range)" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+  <NPCCharacter id="DreadlordAiel1" default_group="Ranged" level="21" name="{=DreadlordAiel}Samma N'Sei Nomad" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -749,7 +749,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="DreadlordAiel2" default_group="Ranged" level="26" name="{=DreadlordAiel2}Samma N'Sei Warrior (Fireball)(Long range)" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+  <NPCCharacter id="DreadlordAiel2" default_group="Ranged" level="26" name="{=DreadlordAiel2}Samma N'Sei Warrior" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -806,7 +806,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="DreadlordAiel3" default_group="Ranged" level="31" name="{=DreadlordAiel3}Samma N'Sei Dreadlord (Fireball)(Long range)" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+  <NPCCharacter id="DreadlordAiel3" default_group="Ranged" level="31" name="{=DreadlordAiel3}Samma N'Sei Dreadlord" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -4548,7 +4548,7 @@
     <skills>
       <skill id="Athletics" value="200" />
       <skill id="Riding" value="50" />
-      <skill id="OneHanded" value="50" />
+      <skill id="OneHanded" value="150" />
       <skill id="TwoHanded" value="200" />
       <skill id="Polearm" value="50" />
       <skill id="Bow" value="50" />
@@ -4561,6 +4561,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.western_2hsword_t3" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" /> 
+        <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Elfassasinarmor3" />
         <equipment slot="Leg" id="Item.WarderBootsLight" />
         <equipment slot="Cape" id="Item.WarderCloak" />
@@ -4575,7 +4577,7 @@
     <skills>
       <skill id="Athletics" value="250" />
       <skill id="Riding" value="75" />
-      <skill id="OneHanded" value="75" />
+      <skill id="OneHanded" value="175" />
       <skill id="TwoHanded" value="275" />
       <skill id="Polearm" value="70" />
       <skill id="Bow" value="65" />
@@ -4588,6 +4590,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.western_2hsword_t4" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" /> 
+        <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Warder2024newarmor2" />
         <equipment slot="Gloves" id="Item.padded_vambrace_a_mitten" />
         <equipment slot="Leg" id="Item.WarderBootsLight" />
@@ -4603,7 +4607,7 @@
     <skills>
       <skill id="Athletics" value="300" />
       <skill id="Riding" value="100" />
-      <skill id="OneHanded" value="100" />
+      <skill id="OneHanded" value="200" />
       <skill id="TwoHanded" value="330" />
       <skill id="Polearm" value="100" />
       <skill id="Bow" value="100" />
@@ -4614,6 +4618,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" /> 
+        <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Warder2024newarmor2b" />
         <equipment slot="Gloves" id="Item.WarderHeavyBracer" />
         <equipment slot="Leg" id="Item.Warder2024newboots1" />
@@ -7769,7 +7775,7 @@
   </NPCCharacter>
   <!--Boarderlands Noble Troops-->
   <!--The Arafel forces-->
-  <NPCCharacter id="Arafel_noble1" default_group="Infantry" level="16" name="{=Arafel_noble1}Arafellin Housegaurd" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
+  <NPCCharacter id="Arafel_noble1" default_group="Infantry" level="16" name="{=Arafel_noble1}Arafellin Houseguard" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
     <face>
       <BodyProperties version="4" age="22.49" weight="0.5" build="0.5" key="0015F80FC0002850B8708BD6CDC85229D3698B3ABDFE344CD22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF41002" />
       <BodyPropertiesMax version="4" age="22.49" weight="0.5" build="0.5" key="0015F80E40002550B8708BD6CDC85229D3698B3ABDFE344CD22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF41002" />
