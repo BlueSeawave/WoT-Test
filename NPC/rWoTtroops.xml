@@ -4949,7 +4949,7 @@
       <EquipmentSet id="WhiteTower_troop_civilian_template_t5" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="AesSedai5" default_group="Ranged" level="36" name="{=Aessedai6}Powerfull Aes Sedai" occupation="Soldier" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="AesSedai5" default_group="Ranged" level="36" name="{=Aessedai6}Powerful Aes Sedai" occupation="Soldier" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
