@@ -5,7 +5,7 @@
     <Components>
       <Town id="town_comp_maradon" is_castle="false" background_crop_position="0.0" background_mesh="menu_empire_seaside_1" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="2800">
         <Buildings>
-          <Building id="building_settlement_fortifications" level="1" />
+          <Building id="building_settlement_fortifications" level="2" />
           <Building id="building_settlement_barracks" level="1" />
           <Building id="building_settlement_training_fields" level="2" />
           <Building id="building_settlement_guard_house" level="2" />
@@ -481,9 +481,9 @@
     <Components>
       <Town id="town_comp_arbela" is_castle="false" background_crop_position="0.45" background_mesh="menu_empire_seaside_2" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="5100">
         <Buildings>
-          <Building id="building_settlement_fortifications" level="1" />
+          <Building id="building_settlement_fortifications" level="2" />
           <Building id="building_settlement_barracks" level="1" />
-          <Building id="building_settlement_training_fields" level="0" />
+          <Building id="building_settlement_training_fields" level="1" />
           <Building id="building_settlement_guard_house" level="1" />
           <Building id="building_settlement_siege_workshop" level="0" />
           <Building id="building_settlement_tax_office" level="0" />
@@ -869,8 +869,8 @@
     <Components>
       <Town id="castle_comp_shiener_1" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="1100">
         <Buildings>
-          <Building id="building_castle_fortifications" level="1" />
-          <Building id="building_castle_barracks" level="0" />
+          <Building id="building_castle_fortifications" level="2" />
+          <Building id="building_castle_barracks" level="1" />
           <Building id="building_castle_training_fields" level="0" />
           <Building id="building_castle_guard_house" level="1" />
           <Building id="building_castle_siege_workshop" level="1" />
@@ -3699,10 +3699,10 @@
     <Components>
       <Town id="castle_comp_cairhien_3" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="810">
         <Buildings>
-          <Building id="building_castle_fortifications" level="1" />
-          <Building id="building_castle_barracks" level="0" />
-          <Building id="building_castle_training_fields" level="0" />
-          <Building id="building_castle_guard_house" level="0" />
+          <Building id="building_castle_fortifications" level="2" />
+          <Building id="building_castle_barracks" level="1" />
+          <Building id="building_castle_training_fields" level="1" />
+          <Building id="building_castle_guard_house" level="1" />
           <Building id="building_castle_siege_workshop" level="0" />
           <Building id="building_castle_castallans_office" level="0" />
           <Building id="building_castle_granary" level="0" />
@@ -5228,10 +5228,10 @@
     <Components>
       <Town id="town_comp_tear" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="1700">
         <Buildings>
-          <Building id="building_settlement_fortifications" level="1" />
-          <Building id="building_settlement_barracks" level="1" />
+          <Building id="building_settlement_fortifications" level="3" />
+          <Building id="building_settlement_barracks" level="2" />
           <Building id="building_settlement_training_fields" level="1" />
-          <Building id="building_settlement_guard_house" level="0" />
+          <Building id="building_settlement_guard_house" level="1" />
           <Building id="building_settlement_siege_workshop" level="0" />
           <Building id="building_settlement_tax_office" level="0" />
           <Building id="building_settlement_marketplace" level="0" />

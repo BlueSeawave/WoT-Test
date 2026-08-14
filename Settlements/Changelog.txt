@@ -1,0 +1,16 @@
+Tear:
+    Fort level: Buffed 2 levels, the stone has never fallen
+    Guardhouse + barracks buffed one level to represent defenders of the stone
+Camron Caan (Northern fort Sheinar):
+    Fort level: Buffed 1 level
+    Baracks: Buffed one level
+    To help sheinar hold of the shadow for a bit
+Maradon:
+    Fort level: Buffed 1 level
+    Their first line of defence against the shadow
+Shol Arabel:
+    Fort level: buffed 1 level
+    Training field: buffed 1 level (felt 0 was insufficient)
+Taien:
+    Fortlevel, guardhouse, baracks, training fields buffed 1 level (from 1-> 2 or 0->1)
+    They learned from the aiel war
