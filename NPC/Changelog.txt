@@ -1,3 +1,8 @@
 Warders: Given onehanded weapons + borderland sword-shield to give them some arrow protection, onehanded improved by a hundred for all those this change was made to
 Dreadlords: Names which included one-power weapons equipped had that removed
 Arafellin Houseguard: spelling corrected
+
+
+V2:
+Ashaman Initiate -> Ashaman Soldier
+Two rivers bowmen, exists, upgradable from Dragonsworn_noble1 with 3 tiers, bowman, archer, sharpshooter, with progressing gear and stats
