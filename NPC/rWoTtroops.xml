@@ -3347,9 +3347,6 @@
       <skill id="Crossbow" value="20" />
       <skill id="Throwing" value="20" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.Dragonsworn_riversbowman3" />
-    </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.Tworiversbow2" />
