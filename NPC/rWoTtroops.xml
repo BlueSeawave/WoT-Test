@@ -3276,8 +3276,8 @@
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
     <skills>
-      <skill id="Athletics" value="100" />
-      <skill id="Riding" value="125" />
+      <skill id="Athletics" value="125" />
+      <skill id="Riding" value="100" />
       <skill id="OneHanded" value="100" />
       <skill id="TwoHanded" value="10" />
       <skill id="Polearm" value="20" />
@@ -3307,8 +3307,8 @@
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
     <skills>
-      <skill id="Athletics" value="125" />
-      <skill id="Riding" value="125" />
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="100" />
       <skill id="OneHanded" value="100" />
       <skill id="TwoHanded" value="10" />
       <skill id="Polearm" value="20" />
@@ -3338,8 +3338,8 @@
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
     <skills>
-      <skill id="Athletics" value="150125" />
-      <skill id="Riding" value="125" />
+      <skill id="Athletics" value="175" />
+      <skill id="Riding" value="100" />
       <skill id="OneHanded" value="125" />
       <skill id="TwoHanded" value="10" />
       <skill id="Polearm" value="20" />
@@ -4655,8 +4655,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.western_2hsword_t3" />
-		  <equipment slot="Item1" id="Item.offhandswordWOT" />
-		  <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" />
+        <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Elfassasinarmor3" />
         <equipment slot="Leg" id="Item.WarderBootsLight" />
         <equipment slot="Cape" id="Item.WarderCloak" />
@@ -4684,8 +4684,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.western_2hsword_t4" />
-		  <equipment slot="Item1" id="Item.offhandswordWOT" />
-		  <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" />
+        <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Warder2024newarmor2" />
         <equipment slot="Gloves" id="Item.padded_vambrace_a_mitten" />
         <equipment slot="Leg" id="Item.WarderBootsLight" />
@@ -4712,8 +4712,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-		  <equipment slot="Item1" id="Item.offhandswordWOT" />
-		  <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" />
+        <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Warder2024newarmor2b" />
         <equipment slot="Gloves" id="Item.WarderHeavyBracer" />
         <equipment slot="Leg" id="Item.Warder2024newboots1" />
