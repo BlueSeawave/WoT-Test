@@ -6,3 +6,5 @@ Arafellin Houseguard: spelling corrected
 V2:
 Ashaman Initiate -> Ashaman Soldier
 Two rivers bowmen, exists, upgradable from Dragonsworn_noble1 with 3 tiers, bowman, archer, sharpshooter, with progressing gear and stats
+powerful aes sedai (has one l)
+False Dragon devotee (the one on a horse), moved to cavaliery category by default
