@@ -2716,7 +2716,7 @@
       <EquipmentSet id="BlackTower_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Ashaman4" default_group="Ranged" level="31" name="{=Ashaman4}Full Asha'man" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="Ashaman4" default_group="Ranged" level="31" name="{=Ashaman4}Asha'man Veteran" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -3290,7 +3290,7 @@
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Tworiversbow1start" />
+        <equipment slot="Item0" id="Item.Tworiversbow1" />
         <equipment slot="Item1" id="Item.tworiversarrows2" />
         <equipment slot="Item2" id="Item.tworiversarrows2" />
         <equipment slot="Item3" id="Item.vlandia_sword_3_t4" />
