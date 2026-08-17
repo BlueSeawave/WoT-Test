@@ -9,3 +9,4 @@ Two rivers bowmen, exists, upgradable from Dragonsworn_noble1 with 3 tiers, bowm
 powerful aes sedai (has one l)
 False Dragon devotee (the one on a horse), moved to cavaliery category by default
 Full Asha'man to Asha'man veteran, You should already become a "full" ashaman when you become "ashaman", renamed to show that experience, not rank, is the diffrence maker
+Levy Crossbowman: Removed bow upgrade, presumed that is was unintentional

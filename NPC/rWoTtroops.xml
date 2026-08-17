@@ -5785,7 +5785,6 @@
       <skill id="Throwing" value="10" />
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.LevyBow3a" />
       <upgrade_target id="NPCCharacter.LevyBow3b" />
     </upgrade_targets>
     <Equipments>
