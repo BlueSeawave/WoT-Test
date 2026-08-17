@@ -11,3 +11,4 @@ False Dragon devotee (the one on a horse), moved to cavaliery category by defaul
 Full Asha'man to Asha'man veteran, You should already become a "full" ashaman when you become "ashaman", renamed to show that experience, not rank, is the diffrence maker
 Levy Crossbowman: Removed bow upgrade, presumed that is was unintentional
 SeanchanBow3, renamed Veteran Marksman to diffrence from SeanchanBow2 Marksman
+LevyBow3a renamed levy sharpshooter, to diffrence from LevyBow3b levy marksman

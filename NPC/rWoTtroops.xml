@@ -5688,7 +5688,7 @@
       <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="LevyBow3a" default_group="Ranged" level="21" name="{=LevyBow3a}Levy Marksman" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
+  <NPCCharacter id="LevyBow3a" default_group="Ranged" level="21" name="{=LevyBow3a}Levy Sharpshooter" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
     <face>
       <face_key_template value="BodyProperty.fighter_coastlander" />
     </face>
