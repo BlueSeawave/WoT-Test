@@ -9164,7 +9164,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="SeanchanBow3" default_group="Ranged" level="26" name="{=SeanchanBow2}Marksman" occupation="Soldier" culture="Culture.vlandia">
+  <NPCCharacter id="SeanchanBow3" default_group="Ranged" level="26" name="{=SeanchanBow3} Veteran Marksman" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_seanchan" />
     </face>
